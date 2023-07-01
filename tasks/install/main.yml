@@ -1,0 +1,7 @@
+- name: "Install the 'cmake' application package"
+  ansible.builtin.package:
+    name: cmake
+    state: present
+  become: true
+  become_user: root
+
