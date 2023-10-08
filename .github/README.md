@@ -53,7 +53,7 @@ Install and configure the cmake build-system generator.
        - name: "Install and configure the cmake build-system generator"
          ansible.builtin.include_role:
            name: ans_role_config_cmake
-           public: yes
+           public: true
    ```
 
 ## Role Options
